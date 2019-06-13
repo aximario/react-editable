@@ -42,7 +42,8 @@
     "webpack-dev-server": "^3.7.1"
   },
   "dependencies": {
-    "@aximario/react-convertor": "^1.0.2"
+    "@aximario/react-convertor": "^1.0.2",
+    "@aximario/react-loading": "^1.0.1"
   },
   "peerDependencies": {
     "react": "^16.0.0",
