@@ -1,7 +1,7 @@
 {
   "name": "@aximario/react-confirm-convertor",
-  "version": "1.0.1",
-  "description": "react component convertor",
+  "version": "1.0.0",
+  "description": "react component confirm-convertor",
   "main": "./dist/index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aximario/react-convertor.git"
+    "url": "git+https://github.com/aximario/react-confirm-convertor.git"
   },
   "keywords": [
     "react",
     "component",
-    "convertor"
+    "confirm-convertor"
   ],
   "author": "aximario<aximario@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aximario/react-convertor/issues"
+    "url": "https://github.com/aximario/react-confirm-convertor/issues"
   },
-  "homepage": "https://github.com/aximario/react-convertor#readme",
+  "homepage": "https://github.com/aximario/react-confirm-convertor#readme",
   "devDependencies": {
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
