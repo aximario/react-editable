@@ -1,0 +1,57 @@
+{
+  "name": "@aximario/react-confirm-convertor",
+  "version": "1.0.1",
+  "description": "react component convertor",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "tsc -p ./tsconfig.prod.json -d",
+    "lint": "standard *.ts",
+    "lint:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aximario/react-convertor.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "convertor"
+  ],
+  "author": "aximario<aximario@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aximario/react-convertor/issues"
+  },
+  "homepage": "https://github.com/aximario/react-convertor#readme",
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "standard": "^12.0.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "dependencies": {
+    "@aximario/react-convertor": "^1.0.2"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "standard": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint/eslint-plugin"
+    ]
+  }
+}
