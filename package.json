@@ -1,7 +1,7 @@
 {
   "name": "@aximario/react-editable",
   "version": "1.0.0",
-  "description": "react component editable",
+  "description": "react hooks component - editable",
   "main": "./dist/index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -16,6 +16,7 @@
   "keywords": [
     "react",
     "component",
+    "hooks",
     "editable"
   ],
   "author": "aximario<aximario@qq.com>",

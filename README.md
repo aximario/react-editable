@@ -2,7 +2,7 @@
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-ConfirmConvertor 组件只接受两个 child，并根据配置展示其中的一个，点击编辑展示第二个孩子，点击确定和取消返回显示第一个孩子，编辑，确定和取消操作提供有相应的监听事件
+Editable 组件只接受两个 child，并根据配置展示其中的一个，点击编辑展示第二个孩子，点击确定和取消返回显示第一个孩子，编辑，确定和取消操作提供有相应的监听事件
 
 ## 安装
 
@@ -22,35 +22,35 @@ npm i @aximario/react-editable -S
 ## 使用
 
 ```jsx
-<ConfirmConvertor>
+<Editable>
   <p>200</p>
   <input />
-</ConfirmConvertor>
+</Editable>
 
 // 监听函数不返回，默认执行完成后显示第一个孩子
-<ConfirmConvertor
+<Editable
   mode="display"
   onEdit={() => { console.log('edit') }}
 >
   <p>200</p>
   <input />
-</ConfirmConvertor>
+</Editable>
 
 // 监听函数返回 promise，等待执行完成后显示第一个孩子
-<ConfirmConvertor
+<Editable
   mode="display"
   onEdit={() => Promise.resolve()}
 >
   <p>200</p>
   <input />
-</ConfirmConvertor>
+</Editable>
 
 // 监听函数有异步操作，等待执行完成后显示第一个孩子
-<ConfirmConvertor
+<Editable
   mode="display"
   onEdit={async () => { await request() }}
 >
   <p>200</p>
   <input />
-</ConfirmConvertor>
+</Editable>
 ```
