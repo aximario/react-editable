@@ -12,7 +12,7 @@ interface Props {
 
 const { useState } = React
 
-export default function ConfirmConvertor (props: Props) {
+export default function Editable (props: Props) {
   const { mode, children, onEdit, onConfirm, onCancel } = props
   const [convert, setConvert] = useState(false)
   const [loading, setLoading] = useState(false)
@@ -68,6 +68,6 @@ export default function ConfirmConvertor (props: Props) {
   )
 }
 
-ConfirmConvertor.defaultProps = {
+Editable.defaultProps = {
   mode: 'exist'
 }

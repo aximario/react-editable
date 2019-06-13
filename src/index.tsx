@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import ConfirmConvertor from './ConfirmConvertor'
+import Editable from './Editable'
 
 function request (log: string) {
   return new Promise(resolve => {
@@ -12,7 +12,7 @@ function request (log: string) {
 }
 
 ReactDOM.render(
-  <ConfirmConvertor
+  <Editable
     mode="display"
     onConfirm={() => {
       return request('hhhhh')
@@ -20,6 +20,6 @@ ReactDOM.render(
   >
     2
     <input />
-  </ConfirmConvertor>,
+  </Editable>,
   document.getElementById('root')
 )

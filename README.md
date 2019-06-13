@@ -1,4 +1,4 @@
-# react-confirm-convertor
+# react-editable
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
@@ -7,7 +7,7 @@ ConfirmConvertor 组件只接受两个 child，并根据配置展示其中的一
 ## 安装
 
 ```sh
-npm i @aximario/react-confirm-convertor -S
+npm i @aximario/react-editable -S
 ```
 
 ## API

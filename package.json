@@ -1,7 +1,7 @@
 {
-  "name": "@aximario/react-confirm-convertor",
+  "name": "@aximario/react-editable",
   "version": "1.0.0",
-  "description": "react component confirm-convertor",
+  "description": "react component editable",
   "main": "./dist/index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aximario/react-confirm-convertor.git"
+    "url": "git+https://github.com/aximario/react-editable.git"
   },
   "keywords": [
     "react",
     "component",
-    "confirm-convertor"
+    "editable"
   ],
   "author": "aximario<aximario@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aximario/react-confirm-convertor/issues"
+    "url": "https://github.com/aximario/react-editable/issues"
   },
-  "homepage": "https://github.com/aximario/react-confirm-convertor#readme",
+  "homepage": "https://github.com/aximario/react-editable#readme",
   "devDependencies": {
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
